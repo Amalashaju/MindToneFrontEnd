@@ -57,7 +57,7 @@ function HomePage() {
 
   useEffect(() => {
   const storedName = localStorage.getItem('username');
-  console.log("Stored username in localStorage:", storedName); // Debug line
+  console.log("Stored username in localStorage:", storedName); 
   if (storedName) {
     setUsername(storedName);
   }
@@ -122,8 +122,6 @@ function HomePage() {
               </button>
             </form>
           </div>
-
-          {/* Recent Feedback */}
           <div className="bg-white rounded-2xl shadow p-6 flex-1 min-w-full lg:min-w-[280px]">
             <h2 className="text-xl font-semibold">Recent Feedback</h2>
 

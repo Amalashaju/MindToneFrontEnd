@@ -107,12 +107,9 @@ function Auth({ register }) {
                     <h1 className="text-xl font-semibold text-blue-900">MindTone</h1>
                 </div>
                 <div className="flex items-center justify-between gap-6 text-gray-700">
-                    {/* Navigation Links */}
                     <div className="flex gap-8">
                        <Link to={'/'}> <div className="hover:text-blue-700">Home</div></Link>
                     </div>
-
-                    {/* Sign In Button */}
                     <Link to={'/login'}>
                         <button className="px-4 py-1 border border-blue-700 text-blue-700 rounded-md hover:bg-blue-700 hover:text-white transition">
                             Sign in
